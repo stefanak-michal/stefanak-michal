@@ -39,10 +39,12 @@
       "name": "CypherGUI",
       "description": "GUI admin tool for graph databases.",
       "webpageUrl": {
-        "url": "https://github.com/stefanak-michal/cyphergui"
+        "url": "https://github.com/stefanak-michal/cyphergui",
+        "wellKnown": "https://github.com/stefanak-michal/cyphergui/blob/master/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/stefanak-michal/cyphergui"
+        "url": "https://github.com/stefanak-michal/cyphergui",
+        "wellKnown": "https://github.com/stefanak-michal/cyphergui/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:Apache-2.0"
@@ -59,56 +61,16 @@
       ]
     },
     {
-      "guid": "neo4j-bolt-wrapper",
-      "name": "neo4j-bolt-wrapper",
-      "description": "Wrapper for Neo4j over PHP Bolt library to simplify usage.",
-      "webpageUrl": {
-        "url": "https://github.com/stefanak-michal/neo4j-bolt-wrapper"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/stefanak-michal/neo4j-bolt-wrapper"
-      },
-      "licenses": [
-        "spdx:MIT"
-      ],
-      "tags": [
-        "neo4j",
-        "bolt-protocol",
-        "graph-databases",
-        "php",
-        "driver"
-      ]
-    },
-    {
-      "guid": "memgraph-bolt-wrapper",
-      "name": "memgraph-bolt-wrapper",
-      "description": "Wrapper for Memgraph over PHP Bolt library to simplify usage.",
-      "webpageUrl": {
-        "url": "https://github.com/stefanak-michal/memgraph-bolt-wrapper"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/stefanak-michal/memgraph-bolt-wrapper"
-      },
-      "licenses": [
-        "spdx:MIT"
-      ],
-      "tags": [
-        "memgraph",
-        "bolt-protocol",
-        "graph-databases",
-        "php",
-        "driver"
-      ]
-    },
-    {
       "guid": "thingsdb-js",
       "name": "thingsdb.js",
       "description": "Javascript connector for ThingsDB",
       "webpageUrl": {
-        "url": "https://github.com/stefanak-michal/thingsdb.js"
+        "url": "https://github.com/stefanak-michal/thingsdb.js",
+        "wellKnown": "https://github.com/stefanak-michal/thingsdb.js/blob/master/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/stefanak-michal/thingsdb.js"
+        "url": "https://github.com/stefanak-michal/thingsdb.js",
+        "wellKnown": "https://github.com/stefanak-michal/thingsdb.js/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:Apache-2.0"
@@ -117,45 +79,6 @@
         "javascript",
         "driver",
         "thingsdb"
-      ]
-    },
-    {
-      "guid": "thingsdb-php",
-      "name": "thingsdb-php",
-      "description": "PHP connector for ThingsDB",
-      "webpageUrl": {
-        "url": "https://github.com/stefanak-michal/thingsdb-php"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/stefanak-michal/thingsdb-php"
-      },
-      "licenses": [
-        "spdx:Apache-2.0"
-      ],
-      "tags": [
-        "php",
-        "driver",
-        "thingsdb"
-      ]
-    },
-    {
-      "guid": "deepr-php",
-      "name": "deepr-php",
-      "description": "API library following Deepr specification",
-      "webpageUrl": {
-        "url": "https://github.com/stefanak-michal/deepr-php"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/stefanak-michal/deepr-php"
-      },
-      "licenses": [
-        "spdx:MIT"
-      ],
-      "tags": [
-        "php",
-        "api",
-        "rpc",
-        "deepr"
       ]
     }
   ],
@@ -182,7 +105,7 @@
         "frequency": "one-time",
         "channels": [
           "github-sponsors",
-          "https://ko-fi.com/michalstefanak"
+          "ko-fi"
         ]
       },
       {
@@ -194,7 +117,7 @@
         "frequency": "monthly",
         "channels": [
           "github-sponsors",
-          "https://ko-fi.com/michalstefanak"
+          "ko-fi"
         ]
       }
     ]
