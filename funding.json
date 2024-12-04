@@ -1,0 +1,200 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Michal Stefanak",
+    "email": "stefanak.michal@gmail.com",
+    "description": "Problem solver and technologies specialist. Author of awarded PHP Bolt driver for communication with graph databases.",
+    "webpageUrl": {
+      "url": "https://github.com/stefanak-michal"
+    }
+  },
+  "projects": [
+    {
+      "guid": "php-bolt-library",
+      "name": "Bolt",
+      "description": "PHP library to provide connectivity to graph database over TCP socket with Bolt specification",
+      "webpageUrl": {
+        "url": "https://github.com/neo4j-php/Bolt"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/neo4j-php/Bolt"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "php",
+        "neo4j",
+        "driver",
+        "bolt-protocol",
+        "graph-databases"
+      ]
+    },
+    {
+      "guid": "cyphergui",
+      "name": "CypherGUI",
+      "description": "GUI admin tool for graph databases.",
+      "webpageUrl": {
+        "url": "https://github.com/stefanak-michal/cyphergui"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/stefanak-michal/cyphergui"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "administration",
+        "neo4j",
+        "memgraph",
+        "amazon-neptune",
+        "bolt-protocol",
+        "graph-databases",
+        "cql",
+        "cypher-query-language"
+      ]
+    },
+    {
+      "guid": "neo4j-bolt-wrapper",
+      "name": "neo4j-bolt-wrapper",
+      "description": "Wrapper for Neo4j over PHP Bolt library to simplify usage.",
+      "webpageUrl": {
+        "url": "https://github.com/stefanak-michal/neo4j-bolt-wrapper"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/stefanak-michal/neo4j-bolt-wrapper"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "neo4j",
+        "bolt-protocol",
+        "graph-databases",
+        "php",
+        "driver"
+      ]
+    },
+    {
+      "guid": "memgraph-bolt-wrapper",
+      "name": "memgraph-bolt-wrapper",
+      "description": "Wrapper for Memgraph over PHP Bolt library to simplify usage.",
+      "webpageUrl": {
+        "url": "https://github.com/stefanak-michal/memgraph-bolt-wrapper"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/stefanak-michal/memgraph-bolt-wrapper"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "memgraph",
+        "bolt-protocol",
+        "graph-databases",
+        "php",
+        "driver"
+      ]
+    },
+    {
+      "guid": "thingsdb-js",
+      "name": "thingsdb.js",
+      "description": "Javascript connector for ThingsDB",
+      "webpageUrl": {
+        "url": "https://github.com/stefanak-michal/thingsdb.js"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/stefanak-michal/thingsdb.js"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "javascript",
+        "driver",
+        "thingsdb"
+      ]
+    },
+    {
+      "guid": "thingsdb-php",
+      "name": "thingsdb-php",
+      "description": "PHP connector for ThingsDB",
+      "webpageUrl": {
+        "url": "https://github.com/stefanak-michal/thingsdb-php"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/stefanak-michal/thingsdb-php"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "php",
+        "driver",
+        "thingsdb"
+      ]
+    },
+    {
+      "guid": "deepr-php",
+      "name": "deepr-php",
+      "description": "API library following Deepr specification",
+      "webpageUrl": {
+        "url": "https://github.com/stefanak-michal/deepr-php"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/stefanak-michal/deepr-php"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "php",
+        "api",
+        "rpc",
+        "deepr"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/stefanak-michal/"
+      },
+      {
+        "guid": "ko-fi",
+        "type": "payment-provider",
+        "address": "https://ko-fi.com/michalstefanak"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "my-plan-1",
+        "status": "active",
+        "name": "Starter support plan",
+        "amount": 0,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": [
+          "github-sponsors",
+          "https://ko-fi.com/michalstefanak"
+        ]
+      },
+      {
+        "guid": "my-plan-2",
+        "status": "active",
+        "name": "Monthly funding plan",
+        "amount": 0,
+        "currency": "EUR",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors",
+          "https://ko-fi.com/michalstefanak"
+        ]
+      }
+    ]
+  }
+}
