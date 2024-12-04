@@ -16,10 +16,12 @@
       "name": "Bolt",
       "description": "PHP library to provide connectivity to graph database over TCP socket with Bolt specification",
       "webpageUrl": {
-        "url": "https://github.com/neo4j-php/Bolt"
+        "url": "https://github.com/neo4j-php/Bolt",
+        "wellKnown": "https://github.com/neo4j-php/Bolt/blob/master/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/neo4j-php/Bolt"
+        "url": "https://github.com/neo4j-php/Bolt",
+        "wellKnown": "https://github.com/neo4j-php/Bolt/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MIT"
